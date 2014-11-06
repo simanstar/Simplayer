@@ -1,0 +1,12 @@
+#ifndef CONTROL_H
+#define CONTROL_H
+#include <QtWidgets>
+class Control : public  QWidget
+{
+    Q_OBJECT
+public:
+    explicit Control(QWidget *parent=0);
+    ~
+    
+};
+#endif // CONTROL_H
